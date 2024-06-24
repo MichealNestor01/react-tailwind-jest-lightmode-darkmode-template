@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*classes that switch the colours based on site theme*/
+#site-wrapper {
+  transition: all 0.5s ease;
+}
+.light {
+  --site-backgound: #fff;
+  --text-main-colour: #000;
+}
+.dark {
+  --site-backgound: #000;
+  --text-main-colour: #fff;
+}
